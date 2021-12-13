@@ -95,7 +95,7 @@ function buildCharts(sample) {
         type: 'bar',
         orientation: 'h',
         marker: {
-          color: yticks,
+          color: sample_values,
           colorscale: 'Picnic'
           }
         }
