@@ -95,11 +95,10 @@ function buildCharts(sample) {
         type: 'bar',
         orientation: 'h',
         marker: {
-          colorbar: {
-            colorscale: 'Picnic'
+          color: yticks,
+          colorscale: 'Picnic'
           }
         }
-      }
     ];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
