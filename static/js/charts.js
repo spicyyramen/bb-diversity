@@ -123,13 +123,13 @@ function buildCharts(sample) {
     var gaugeData = [
       {
         domain: {x: [0,1], y: [0,1]},
-        value: firstSample.wfreq,
+        value: result.wfreq,
         title: {text: "Wash Frequency <br> Scrubs per Week"},
         type: 'indicator',
         mode: 'gauge+number',
         gauge: {
           axis: {
-            range: [0,9],
+            range: [0,10],
             tickmode: 'linear'
           }
         }
@@ -138,8 +138,8 @@ function buildCharts(sample) {
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-      width: 300,
-      height: 200,
+      width: 600,
+      height: 500,
       margin: {
         t:0,
         b:0
