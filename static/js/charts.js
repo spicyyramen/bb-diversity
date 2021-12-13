@@ -123,7 +123,7 @@ function buildCharts(sample) {
     var washFreq = firstSample.wfreq 
     var gaugeData = [
       {
-        domain: {x: [0,1], y: [0,1]},
+        domain: {x: [0,10], y: [0,10]},
         value = washFreq,
         title: {text: "Wash Frequency: Scrubs per Week"},
         type: 'indicator',
@@ -133,8 +133,8 @@ function buildCharts(sample) {
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-      width: 600,
-      height: 500,
+      width: 300,
+      height: 200,
       margin: {
         t:0,
         b:0
