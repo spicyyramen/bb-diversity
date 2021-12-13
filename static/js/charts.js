@@ -112,37 +112,36 @@ function buildCharts(sample) {
     var bubbleLayout = {
       title: "Bacteria Cultures Per Sample",
       hovermode: 'closest'
-      
     };
 
     // 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout);
 
 
-    // // 4. Create the trace for the gauge chart.
-    // var washFreq = firstSample.wfreq 
-    // var gaugeData = [
-    //   {
-    //     domain: {x: [0,10], y: [0,10]},
-    //     value = washFreq,
-    //     title: {text: "Wash Frequency: Scrubs per Week"},
-    //     type: 'indicator',
-    //     mode: 'gauge+number'
-    //   }    
-    // ];
+    // 4. Create the trace for the gauge chart.
+     
+    var gaugeData = [
+      {
+        domain: {x: [0,10], y: [0,10]},
+        value = firstSample.wfreq,
+        title: {text: "Wash Frequency <br> Scrubs per Week"},
+        type: 'indicator',
+        mode: 'gauge+number'
+      }    
+    ];
     
-    // // 5. Create the layout for the gauge chart.
-    // var gaugeLayout = { 
-    //   width: 300,
-    //   height: 200,
-    //   margin: {
-    //     t:0,
-    //     b:0
-    //   }
-    // };
+    // 5. Create the layout for the gauge chart.
+    var gaugeLayout = { 
+      width: 300,
+      height: 200,
+      margin: {
+        t:0,
+        b:0
+      }
+    };
 
-    // // 6. Use Plotly to plot the gauge data and layout.
-    // Plotly.newPlot("gauge", gaugeData, gaugeLayout);
+    // 6. Use Plotly to plot the gauge data and layout.
+    Plotly.newPlot("gauge", gaugeData, gaugeLayout);
 
   });
 };
