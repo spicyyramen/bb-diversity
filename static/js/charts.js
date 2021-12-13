@@ -131,6 +131,16 @@ function buildCharts(sample) {
           axis: {
             range: [0,10],
             tickmode: 'linear'
+          },
+          steps: [
+            {range: [0,2], color: 'red'},
+            {range: [3,4], color: 'orange'},
+            {range: [5,6], color: 'yellow'},
+            {range: [7,8], color: 'lightgreen'},
+            {range: [9,10], color: 'green'},
+          ],
+          threshold: {
+            line: {color: "black", width: 4}
           }
         }
       }    
