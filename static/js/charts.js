@@ -76,6 +76,7 @@ function buildCharts(sample) {
     console.log(data.wfreq);
     console.log(filterSample.wfreq);
     console.log(samples.wFreq);
+    console.log(firstSample.otu_ids);
 
     // 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order  
