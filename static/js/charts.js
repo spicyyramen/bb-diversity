@@ -132,6 +132,7 @@ function buildCharts(sample) {
             range: [0,10],
             tickmode: 'linear'
           },
+          bar: {color: "black"},
           steps: [
             {range: [0,2], color: 'red'},
             {range: [2,4], color: 'orange'},
@@ -139,8 +140,6 @@ function buildCharts(sample) {
             {range: [6,8], color: 'lightgreen'},
             {range: [8,10], color: 'green'},
           ],
-          threshold: {
-            line: {color: "black", width: 4}
           }
         }
       }    
