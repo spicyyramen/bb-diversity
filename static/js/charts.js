@@ -119,7 +119,7 @@ function buildCharts(sample) {
 
 
     // 4. Create the trace for the gauge chart.
-     
+    var wFreq = data.wFreq; 
     var gaugeData = [
       {
         domain: {x: [0,1], y: [0,1]},
@@ -130,7 +130,7 @@ function buildCharts(sample) {
         gauge: {
           axis: {
             range: [0,10],
-            tickmode: 'linear'
+            ticks: 9
           },
           bar: {color: "black"},
           steps: [
