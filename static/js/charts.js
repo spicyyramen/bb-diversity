@@ -93,7 +93,12 @@ function buildCharts(sample) {
         x: sample_values.slice(0,10).reverse(),
         y: yticks,
         type: 'bar',
-        orientation: 'h'
+        orientation: 'h',
+        marker: {
+          colorbar: {
+            colorscale: 'Picnic'
+          }
+        }
       }
     ];
     // 9. Create the layout for the bar chart. 
