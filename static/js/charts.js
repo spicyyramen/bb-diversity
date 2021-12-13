@@ -69,11 +69,17 @@ function buildCharts(sample) {
     var otu_labels = firstSample.otu_labels
     var sample_values = firstSample.sample_values
 
-    // create variable for wash freq
-    var wFreq = firstSample.wfreq
+    // create variable to filter metadata array
+    var metadata = data.metadata;
+    var resultArray = metadata.filter(sampleObj => sampleObj.id == sample);
+    var result = resultArray[0];
+
+    var wFreq = result.wfreq;
  
     console.log(firstSample.otu_ids);
-    console.log(data);
+    console.log(wFreq);
+    console.log(result);
+    console.log(result.wfreq);
 
     // 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order  
