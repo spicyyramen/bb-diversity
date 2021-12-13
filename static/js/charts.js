@@ -120,4 +120,4 @@ function buildCharts(sample) {
 
 
   });
-}
+};
