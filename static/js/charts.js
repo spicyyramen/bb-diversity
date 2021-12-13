@@ -119,7 +119,7 @@ function buildCharts(sample) {
 
 
     // 4. Create the trace for the gauge chart.
-    var wFreq = data.wFreq; 
+    var wFreq = data.wfreq; 
     var gaugeData = [
       {
         domain: {x: [0,1], y: [0,1]},
