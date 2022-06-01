@@ -37,3 +37,10 @@ Gauge chart will display frequency (per week) that the selected test subject rep
 <Br>
 Code: Gauge Chart<br>
 ![Gauge Chart Code](images/gaugechart-code.png)
+
+## Cultures per Sample Bubble Chart
+Bubble chart displays number of bacterial cultures found for the selected test subject. The size of each bubble is indicative of the culture count for each type of bacteria. On hover, the bacteria ID (x) and culture count (y) will be displayed, along with the phylogeny of bacteria (ex. Corynebacterium).<br>
+![Bubble Chart](images/bubblechart.png)<br>
+<br>
+Code: Bubble Chart<br>
+![Bubble Chart Code](images/bubblechart-code.png)<br>
