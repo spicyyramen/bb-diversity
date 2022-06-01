@@ -1,5 +1,5 @@
 # Bellybutton Biodiversity
-Transforming bellybutton biodiversity JSON data into interactive charts using Plotly, HTML, CSS, and JavaScript.
+Transforming bellybutton biodiversity JSON data into interactive charts using Plotly, HTML, and JavaScript.
 
 ## Webpage overview
 Example of webpage view for selected test subject.
