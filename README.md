@@ -20,3 +20,11 @@ Code: Dropdown Menu<br>
 Code: Demographics Panel<br>
 ![Demographic Info](images/demographics-code.png)
 <br>
+
+## Top 10 Bacteria Bar Chart
+Bar chart displaying the top 10 most abundant bacteria for a particular test subject. Hovering the mouse over each bar will display the exact number counted for each bacteria. 
+<br>
+![Bar Chart](images/barchart.png)
+<br>
+Code: Bar Chart<br>
+![Bar Chart Code](images/barchart-code.png)
