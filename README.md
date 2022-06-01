@@ -13,10 +13,10 @@ Use the dropdown menu to select a test subject to display their demographic info
 ![Dropdown menu](images/dropdown.png)
 <br>
 <br>
-Example Code: Dropdown Menu<br>
+Code: Dropdown Menu<br>
 ![Dropdown Menu Code](images/dropdown-code.png)
 <br>
 
-Example Code: Demographics Panel<br>
+Code: Demographics Panel<br>
 ![Demographic Info](images/demographics-code.png)
 <br>
