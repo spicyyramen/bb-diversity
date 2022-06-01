@@ -26,5 +26,14 @@ Bar chart displaying the top 10 most abundant bacteria for a particular test sub
 <br>
 ![Bar Chart](images/barchart.png)
 <br>
+<br>
 Code: Bar Chart<br>
 ![Bar Chart Code](images/barchart-code.png)
+
+## Wash Frequency Gauge Chart
+Gauge chart will display frequency (per week) that the selected test subject reported washing their bellybutton.<br>
+![Gauge Chart](images/gaugechart.png)
+<br>
+<Br>
+Code: Gauge Chart<br>
+![Gauge Chart Code](images/gaugechart-code.png)
