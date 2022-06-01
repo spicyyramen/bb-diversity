@@ -1,7 +1,12 @@
 # Bellybutton Biodiversity
 Transforming bellybutton biodiversity JSON data into interactive charts using Plotly, HTML, and JavaScript.
 
-
+### Navigation
+- [Webpage Overview](https://github.com/spicyyramen/bellybutton-biodiversity/tree/main#webpage-overview)
+- [Dropdown Menu & Demographics Panel](https://github.com/spicyyramen/bellybutton-biodiversity/tree/main#dropdown-menu-and-demographic-info-box)
+- [Bar Chart](https://github.com/spicyyramen/bellybutton-biodiversity/tree/main#top-10-bacteria-bar-chart)
+- [Gauge Chart](https://github.com/spicyyramen/bellybutton-biodiversity/tree/main#wash-frequency-gauge-chart)
+- [Bubble Chart](https://github.com/spicyyramen/bellybutton-biodiversity/tree/main#cultures-per-sample-bubble-chart)
 
 ## Webpage
 Example of webpage view for selected test subject.
