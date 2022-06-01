@@ -1,2 +1,2 @@
-# bb-diversity
-Displaying bellybutton biodiversity data using interactive charts.
+# Bellybutton Biodiversity
+Transforming bellybutton biodiversity JSON data into interactive charts using Plotly, HTML, CSS, and JavaScript.
