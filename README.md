@@ -1,13 +1,15 @@
 # Bellybutton Biodiversity
 Transforming bellybutton biodiversity JSON data into interactive charts using Plotly, HTML, and JavaScript.
 
-## Webpage overview
+
+
+## Webpage
 Example of webpage view for selected test subject.
 <br>
 ![Overview](images/overview.png)
 <br>
 
-## Dropdown Menu and Demographic Info Box
+## Dropdown Menu and Demographics Panel
 Use the dropdown menu to select a test subject to display their demographic info and bellybutton biodiversity data.
 <br>
 ![Dropdown menu](images/dropdown.png)
